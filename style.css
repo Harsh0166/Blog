@@ -69,7 +69,7 @@ footer {
 }
 
 /* Mobile Responsive */
-@media (max-width: 4500px) {
+@media (max-width: 450px) {
     body {
         margin-top: 50px;
         padding: 20px;

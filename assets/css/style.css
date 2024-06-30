@@ -17,15 +17,32 @@ h2{
     text-align: center;
     margin-bottom: 20px;
 }
-#spacebox{
+#mail_box{
+    display: flex;
+}
+.mail_div{
+    border-radius: 30px 0 0 30px;
+    margin-top: 10px;
+    height: 42px;
+    background-color: rgb(210, 214, 213);
+}
+.mail{
+    
+    margin-left: 10px;
+    height: 25px;
+    margin-top: 11px;
+    background-color: rgb(210, 214, 213);
+}
+.spacebox{
+    outline: none;
     width: 100%;
     padding: 13px;
     margin: 10px 0;
     border: none;
-    border-radius: 30px;
+    border-radius: 0 30px 30px 0;
     box-sizing: border-box;
     background-color: rgb(210, 214, 213);
-    padding-left: 40px;
+    padding-left: 10px;
 }
 #sbtbtn{
     background-color: #4CAF50;
@@ -79,14 +96,14 @@ footer {
         margin-top: 50px;
         padding: 20px;
     }
-
+    
     .container {
         width: 100%;
         padding: 20px;
         margin: 10px;
     }
 
-    #spacebox {
+    .spacebox {
         padding-left: 20px;
     }
 
